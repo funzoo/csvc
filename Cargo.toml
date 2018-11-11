@@ -1,0 +1,9 @@
+[package]
+name = "csvc"
+version = "0.1.0"
+authors = ["fz <fz>"]
+description = "print the csv file by givin column names"
+
+[dependencies]
+structopt = { version = "0.2", default-features = false }
+atty = "0.2"
